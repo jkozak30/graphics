@@ -1,0 +1,179 @@
+constants dull_yellow 0.3 0.8 0.2 0.3 0.8 0.2 0 0 0
+constants yellow 0.3 0.8 0.2 0.3 0.8 0.2 0 0.5 0
+constants bronze 0.8 0.2 0.6 0.6 0.1 0.5 0.3 0.1 0.1
+constants peach 0.8 0.8 0.2 0.8 0.2 0.2 0 0 0
+constants disco 0.6 0.6 0.6 0.8 0.8 0.8 0.8 0.8 0.8
+constants emerald 0.2 0 0.8 0.1 0.8 0.1 0 0 0
+constants blue 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+light purple 100 10 100 -0.7 0.5 1
+light green 5 150 5 0.2 -0.5 1
+light bluek 0 0 200 0 0 0
+push
+move 60 60 0
+frames 96
+basename aimotx
+push
+move 0 380 0 knob00
+move 0 -380 0 knob01
+rotate x 20
+rotate y 50
+rotate z 10
+rotate x 360 rot01
+rotate y 180 rot02
+vary knob00 0 47 0 1 -1
+vary knob01 48 95 0 1 1
+vary rot01 0 95 0 1
+vary rot02 0 95 0 1
+icosahedron blue 0 0 0 15
+//
+pop
+push
+move 76 0 0
+move 0 95 0 knob10
+move 0 -95 0 knob11
+move 0 95 0 knob12
+move 0 -95 0 knob13
+rotate x 40
+rotate y 240
+rotate z 20
+rotate x 360 rot11
+rotate y 180 rot12
+vary knob10 0 23 0 1 -1
+vary knob11 24 47 0 1 1
+vary knob12 48 71 0 1 -1
+vary knob13 72 95 0 1 1
+vary rot11 0 95 0 1
+vary rot12 0 95 0 1
+icosahedron peach 0 0 0 15
+//
+pop
+push
+move 152 0 0
+move 0 42 0 knob20
+move 0 -42 0 knob21
+move 0 42 0 knob22
+move 0 -42 0 knob23
+move 0 42 0 knob24
+move 0 -42 0 knob25
+rotate x 120
+rotate y 40
+rotate z 340
+rotate x 360 rot21
+rotate y 180 rot22
+vary knob20 0 15 0 1 -1
+vary knob21 16 31 0 1 1
+vary knob22 32 47 0 1 -1
+vary knob23 48 63 0 1 1
+vary knob24 64 79 0 1 -1
+vary knob25 80 95 0 1 1
+vary rot21 0 95 0 1
+vary rot22 0 95 0 1
+icosahedron emerald 0 0 0 15
+//
+pop
+push
+move 228 0 0
+move 0 24 0 knob30
+move 0 -24 0 knob31
+move 0 24 0 knob32
+move 0 -24 0 knob33
+move 0 24 0 knob34
+move 0 -24 0 knob35
+move 0 24 0 knob36
+move 0 -24 0 knob37
+rotate x 170
+rotate y 80
+rotate z 40
+rotate x 360 rot31
+rotate y 180 rot32
+vary knob30 0 11 0 1 -1
+vary knob31 12 23 0 1 1
+vary knob32 24 35 0 1 -1
+vary knob33 36 47 0 1 1
+vary knob34 48 59 0 1 -1
+vary knob35 60 71 0 1 1
+vary knob36 72 83 0 1 -1
+vary knob37 84 95 0 1 1
+vary rot31 0 95 0 1
+vary rot32 0 95 0 1
+icosahedron disco 0 0 0 15
+//
+pop
+push
+move 304 0 0
+move 0 11 0 knob40
+move 0 -11 0 knob41
+move 0 11 0 knob42
+move 0 -11 0 knob43
+move 0 11 0 knob44
+move 0 -11 0 knob45
+move 0 11 0 knob46
+move 0 -11 0 knob47
+move 0 11 0 knob48
+move 0 -11 0 knob49
+move 0 11 0 knob4a
+move 0 -11 0 knob4b
+rotate x 80
+rotate y 120
+rotate z 50
+rotate x 360 rot41
+rotate y 180 rot42
+vary knob40 0 7 0 1 -1
+vary knob41 8 15 0 1 1
+vary knob42 16 23 0 1 -1
+vary knob43 24 31 0 1 1
+vary knob44 32 39 0 1 -1
+vary knob45 40 47 0 1 1
+vary knob46 48 55 0 1 -1
+vary knob47 56 63 0 1 1
+vary knob48 64 71 0 1 -1
+vary knob49 72 79 0 1 1
+vary knob4a 80 87 0 1 -1
+vary knob4b 88 95 0 1 1
+vary rot41 0 95 0 1
+vary rot42 0 95 0 1
+icosahedron bronze 0 0 0 15
+//
+pop
+push
+move 380 0 0
+move 0 6 0 knob50
+move 0 -6 0 knob51
+move 0 6 0 knob52
+move 0 -6 0 knob53
+move 0 6 0 knob54
+move 0 -6 0 knob55
+move 0 6 0 knob56
+move 0 -6 0 knob57
+move 0 6 0 knob58
+move 0 -6 0 knob59
+move 0 6 0 knob5a
+move 0 -6 0 knob5b
+move 0 6 0 knob5c
+move 0 -6 0 knob5d
+move 0 6 0 knob5e
+move 0 -6 0 knob5f
+rotate x 40
+rotate y 100
+rotate z 170
+rotate x 360 rot51
+rotate y 180 rot52
+vary knob50 0 5 0 1 -1
+vary knob51 6 11 0 1 1
+vary knob52 12 17 0 1 -1
+vary knob53 18 23 0 1 1
+vary knob54 24 29 0 1 -1
+vary knob55 30 35 0 1 1
+vary knob56 36 41 0 1 -1
+vary knob57 42 47 0 1 1
+vary knob58 48 53 0 1 -1
+vary knob59 54 59 0 1 1
+vary knob5a 60 65 0 1 -1
+vary knob5b 66 71 0 1 1
+vary knob5c 72 77 0 1 -1
+vary knob5d 78 83 0 1 1
+vary knob5e 84 89 0 1 -1
+vary knob5f 90 95 0 1 1
+vary rot51 0 95 0 1
+vary rot52 0 95 0 1
+icosahedron yellow 0 0 0 15
